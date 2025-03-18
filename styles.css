@@ -1,0 +1,16 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 50%;
+    max-width: 300px;
+  }
