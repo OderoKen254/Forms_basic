@@ -1,4 +1,6 @@
-document.querySelector('#my_form').addEventListener('submit', (addEventListener)=> {
+const form = document.querySelector('#my_form');
+
+form.addEventListener("submit", (event) => {
     event.preventDefault();
 
     //accessing form elements
@@ -14,4 +16,15 @@ document.querySelector('#my_form').addEventListener('submit', (addEventListener)
     }else 
         {alert(`Welcome ${username}, login successful`);
     }
+
+    const data = {
+        username: username,
+        password: password,
+        email: email,
+        phone: phone,
+    };
+    console.log(data.phone);
+
+    form.reset();
+
 });
